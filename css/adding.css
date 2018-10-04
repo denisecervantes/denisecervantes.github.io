@@ -191,7 +191,7 @@ h2 { font-size: 24px; }/*I am using h2 for subtitles*/
 figure {
   display: block;
   /* in this way it fills the width of the parent element article */
-  margin: 8px;
+  margin: 0px;
   /* no margin to avoid extra space around the element */
 }
 
