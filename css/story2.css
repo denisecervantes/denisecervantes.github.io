@@ -12,7 +12,10 @@ body {
 }
 
 
-
+article {
+  max-width: 680px;
+  margin: auto;
+}
 
 h1 { color: yellow; font-family: 'Fjalla One', sans-serif;font-size: 100px;}
 
