@@ -1,20 +1,117 @@
 /* Global styles */
 
+
+
 body {
-  background-color: black;
-  color: white;
-  font-family: 'Noto Sans', sans-serif;
+  background-color: #F8F8F8;
+  color: black;
+  font-family: 'Courier New', sans-serif;
 
   font-size: 16px;
   line-height: 1.5;
 }
 
-div {
-    margin: 24px 52px;
+
+
+
+h1 { color: yellow; font-family: 'Fjalla One', sans-serif;font-size: 100px;}
+
+h2 {font-family: 'Courier New', sans-serif}
+
+h3 {font-family: 'Courier New', sans-serif}
+
+footer {
+  font-family: 'Courier New', serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 0px 20px 0px; /* Top, right, bottom, left */
+  width: 100%;/*Make navigation 100% width of the viewport*/
+  /*height: 100px;Give footer 200px of height*/
+  background: #000000;/*black*/;
+  color: #ffffff;/*white*/
 }
 
-h1 { color: white; font-family: 'Fjalla One', sans-serif;font-size: 64px; font-weight: 700; line-height: 64px; margin: 0 0 0; padding: 20px 30px; text-align: center; text-transform: uppercase; }
+/*BLOCKQUOTE*/
 
-h2 {font-family: 'Noto Sans', sans-serif}
+blockquote {
+  border-top: 2px solid black;/*grey top border line of 6px*/
+  border-bottom: 2px solid black;/*grey bottom border line of 2px*/
+  color: #white;
+  font-family: 'Courier New', sans-serif;
+  font-size: 24px;
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+}
 
-h3 {font-family: 'Noto Sans', sans-serif}
+/*Footer list of links aligned horizontal*/
+
+
+/*links in footer*/
+footer a {
+  color: white;/*white*/
+  text-decoration: none;
+  text-transform: uppercase;/*make all links uppercase*/
+}
+
+/*links in footer on hover*/
+footer a:hover {
+  color: yellow;/*grey*/
+  text-decoration: underline;
+}
+
+
+/******************************************************
+*******************************************************
+6. Mediaqueries
+*******************************************************
+******************************************************/
+
+
+@media (max-width: 700px) {
+  /* Now after that add some styles that will make the page look better at narrower widths and mobile devices.*/
+  li {
+    display: block;
+    padding: 5px;
+  }
+  /*navigation links should sit on top of each other rather than inline*/
+  nav ul li a/*links in nav menu*/{
+    font-size: 12px;
+  }
+  /*font should be smaller when the browser is small */
+  .display/*header h1 story title*/{
+    font-size: 36px;
+  }
+  .summary/*header h2 lead*/{
+    font-size: 18px;
+    margin: 0 auto;
+  }
+  .author/*header h3 byline*/{
+    font-size: 14px;
+  }
+  p {
+    font-size: 16px;
+  }
+  figcaption {
+    font-size: 14px;
+  }
+  blockquote {
+    font-size: 18px;
+  }
+
+  .img-wrapper {
+  display: flex;
+
+  justify-content: space-between;
+}
+  footer ul li {
+  display: block;/*align links in footer vertically*/
+  padding: 5px;
+}
+
+  footer ul li a {
+  font-size: 12px;
+}
+
+}
