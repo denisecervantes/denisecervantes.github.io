@@ -12,16 +12,22 @@ body {
 }
 
 
+
+header {
+  background-image: url("images/Queens.jpg");
+  background-size: cover;
+}
+
+
+
+h2 {font-family: 'Courier New', sans-serif; }
+
+h3 {font-family: 'Courier New', sans-serif; }
+
 article {
   max-width: 680px;
   margin: auto;
 }
-
-h1 { color: yellow; font-family: 'Fjalla One', sans-serif;font-size: 100px;}
-
-h2 {font-family: 'Courier New', sans-serif}
-
-h3 {font-family: 'Courier New', sans-serif}
 
 footer {
   font-family: 'Courier New', serif;
