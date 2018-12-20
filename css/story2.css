@@ -34,8 +34,8 @@ footer {
   color: #ffffff;/*white*/
 }
 
-footer nav li {
-  display: inline; 
+footer nav ul li {
+  display: inline;
 }
 /*BLOCKQUOTE*/
 
