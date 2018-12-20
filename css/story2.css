@@ -13,9 +13,9 @@ body {
 
 
 
-h2 {font-family: 'Open Sans', sans-serif;
+h2 {font-family: 'Open Sans', sans-serif;}
 
-h3 {font-family: 'Open Sans', sans-serif;
+h3 {font-family: 'Open Sans', sans-serif;}
 
 article {
   max-width: 680px;
@@ -34,6 +34,9 @@ footer {
   color: #ffffff;/*white*/
 }
 
+footer nav li {
+  display: inline; 
+}
 /*BLOCKQUOTE*/
 
 blockquote {
