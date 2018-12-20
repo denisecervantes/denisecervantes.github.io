@@ -3,26 +3,19 @@
 
 
 body {
-  background-color: #F8F8F8;
+  background-color: #D8D8D8;
   color: black;
-  font-family: 'Courier New', sans-serif;
-
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
 
 
 
-header {
-  background-image: url("images/Queens.jpg");
-  background-size: cover;
-}
 
+h2 {font-family: 'Open Sans', sans-serif;
 
-
-h2 {font-family: 'Courier New', sans-serif; }
-
-h3 {font-family: 'Courier New', sans-serif; }
+h3 {font-family: 'Open Sans', sans-serif;
 
 article {
   max-width: 680px;
@@ -30,7 +23,7 @@ article {
 }
 
 footer {
-  font-family: 'Courier New', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
@@ -47,7 +40,7 @@ blockquote {
   border-top: 2px solid black;/*grey top border line of 6px*/
   border-bottom: 2px solid black;/*grey bottom border line of 2px*/
   color: #white;
-  font-family: 'Courier New', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   margin: 30px;
   padding: 30px;
